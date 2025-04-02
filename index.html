@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <style>
+      * {
+        text-decoration: none;
+      }
+      .navbar {
+        background-color: black;
+        padding-right: 15px;
+        padding-left: 15px;
+      }
+      .navdiv {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .logo a {
+        background-color: white;
+        font-size: 20px;
+        font-weight: 600;
+        color: black;
+        border-radius: 10px;
+        padding: 8px;
+      }
+
+      .navdiv li {
+        list-style: none;
+        display: inline-block;
+      }
+      .navdiv li a {
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        margin-right: 25px;
+      }
+      .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+      }
+      .wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        gap: 5rem;
+      }
+      .intro {
+        flex: 1;
+        float: right;
+        margin-left: 20px;
+        width: 150px;
+      }
+      img {
+        width: 100%;
+        max-width: 400px;
+        object-fit: cover;
+        vertical-align: middle;
+        border-radius: 50%;
+      }
+      .social-links {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        gap: 15px;
+      }
+
+      .social-links a {
+        color: #333;
+        font-size: 24px;
+        transition: color 0.3s ease;
+      }
+
+      .social-links a:hover {
+        color: #4267b2;
+      }
+      .fBox {
+        width: 1140px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        padding: 40px;
+      }
+      .list li a {
+        color: #333;
+      }
+      .list li {
+        list-style: none;
+      }
+      iframe {
+        border-radius: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navdiv">
+        <div class="logo"><a href="#">KinglydeVs</a></div>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Me</a></li>
+          <li><a href="#">Contact Me</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+      <video controls loop muted width="800">
+        <source src="DayofProgrammer.mp4" type="video/mp4" />
+        <source src="DayofProgrammer.webM" />
+      </video>
+    </div>
+    <section class="wrapper">
+      <div class="intro">
+        <h3>I am Ezra Magagane</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
+          molestias nesciunt at eligendi officiis laudantium facilis voluptate
+          aliquid! Commodi vero, est reiciendis consectetur totam id!
+          Consequuntur facilis adipisci animi mollitia.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
+          molestias nesciunt at eligendi officiis laudantium facilis voluptate
+          aliquid! Commodi vero, est reiciendis consectetur totam id!
+          Consequuntur facilis adipisci animi mollitia.
+        </p>
+      </div>
+      <div class="profile">
+        <img src="Hacker.jpg" alt="Ezra's Image" />
+      </div>
+    </section>
+    <footer>
+      <div class="fBox">
+        <div class="footer-content">
+          <h3>Contact Me</h3>
+          <p>Email: ezramagagane@gmail.com</p>
+          <p>Phone: 0672775108</p>
+          <p>Address: 123, Main Street, Jo'burg, South Africa</p>
+          <ul class="social-links">
+            <li>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-content">
+          <h3>Quick Links</h3>
+          <ul class="list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Contact Me</a></li>
+            <li><a href="#">About Me</a></li>
+          </ul>
+        </div>
+        <div class="footer-content"></div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d459978.999296691!2d27.993982820001754!3d-25.751203311908142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x1ebfd89c66799801%3A0x56102f21b6eb7e0d!2sStaatsartillerie%20Rd%2C%20Pretoria%20West%2C%20Pretoria%2C%200183!3m2!1d-25.732207499999998!2d28.1618717!5e0!3m2!1sen!2sza!4v1743567590535!5m2!1sen!2sza"
+          width="400"
+          height="300"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </footer>
+  </body>
+</html>
